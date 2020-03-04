@@ -7,8 +7,8 @@ repoDB_validation <- function(predDatFile, repoDBFile, threshold){
 
   # Load prediction data files & get rid of the repeated pairs
   predDat = as.data.frame(fread(file = predDatFile, header = TRUE, sep = ",", quote = "\""))
-  predDat[1:2] = t(apply(predDat[1:2],1,sort))
-  predDat = predDat[!duplicated(predDat[1:2]),]
+  # predDat[1:2] = t(apply(predDat[1:2],1,sort))
+  # predDat = predDat[!duplicated(predDat[1:2]),]
   # save 
   fwrite(predDat, file="data/repoDB_PredDat_V7.csv", sep=",", row.names = F, quote = T)
   
@@ -53,7 +53,7 @@ library(ggplot2)
 
 
 # for full data
-val.R <- repoDB_validation(predDatFile = "data/new_net_info_V7_pval.csv",repoDBFile = "data/repoDB_full.csv", threshold = 0.01)
+val.R <- repoDB_validation(predDatFile = "Data/new_net_info_V7_pval.csv",repoDBFile = "Data/repoDB_full.csv", threshold = 0.01)
 newPred = val.R$pred[-which(is.na(val.R$class))]
 newClass = val.R$class[-which(is.na(val.R$class))]
 
