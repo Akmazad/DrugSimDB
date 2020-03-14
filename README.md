@@ -67,8 +67,8 @@ This network-view is query-able.
     
 - <b><i>Edge:</i></b> On click-event of an edge, it makes a pubmed query (using [easyPubMed R package](https://cran.r-project.org/web/packages/easyPubMed/easyPubMed.pdf)) with the <b>two incident drug names</b>, and retrieves and p a list of pubmed articles that have the co-occurance of those two drugs. This process has several steps:
     - Step #1: Using both drug names (incident to an edge), Make a query in PubMed in all the fields, a count indicating total number of article that co-mentions the drug-pair, is return. For example, for an edge with drug-pair, <b>Apixaban-Bivalirudin</b>  Apixaban[All Fields] AND Bivalirudin[All Fields]
-    - Step #2: lkjadf
-    - Step #3: lkjadf
+    - Step #2: 
+    - Step #3: 
     
 
 
