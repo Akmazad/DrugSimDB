@@ -8,25 +8,25 @@ Overall, this interface is user-friendly and responsive.
 
 
 <img style='display: table; border-radius: 5px; border: 1px solid #293954; '
-              src="../www/tutorial images/Figure 1.png" width="400">
+              src="documentation/Figure 1.png" width="400">
 
 # Main Search Interface
 The main interface for exploring the DrugSimDB database looks like bellow:
 
 <img style='display: table; border-radius: 5px; border: 1px solid #293954; '
-              src="../www/tutorial images/Figure 2.png" width="400">
+              src="documentation/Figure 2.png" width="400">
 
 ## Search a Drug
 The following image shows the search panel, where a drug name is queried in the DrugSimDB database to retrieve its similarity information with other drugs. Please note DrugSimDB only includes similarity information about statistically significant drug-pairs (<b>total: 238,635</b>). 
 
 <!-- ![](../www/tutorial images/search_pan.png) -->
 <img style='display: table; border-radius: 5px; border: 1px solid #293954; '
-              src="../www/tutorial images/search_pan.png" width="300">
+              src="documentation/search_pan.png" width="300">
 
 It lists all the available drugs that have similarity information in the DrugSimDB, including a search bar and an option for choosing the combined similarity score to display with, i.e. aggregated score, p-value or adjusted p-value. The search bar supports auto-complete feature (see below). Therefore, when user enters a partial keyword as the drug name, for example, "<b>biva</b>", the list automatically filters to matching drug names "<b>Bivalirudin</b>" and "<b>Tetrahydrocannabivarin</b>". 
 
 <img style='display: table; border-radius: 5px; border: 1px solid #293954; '
-              src="../www/tutorial images/search_pan_search_demo.png" width="300">
+              src="documentation/search_pan_search_demo.png" width="300">
 
 Each Drug name has a "<b>View</b>" button next to it, and when clicked, the result is displayed in the right panel that includes all the similarity information about the query drug (see next sub-section).
 
@@ -34,7 +34,7 @@ Each Drug name has a "<b>View</b>" button next to it, and when clicked, the resu
 When a the <b>View</b> button is pressed for a drug, all other drugs that have statistically significant combined-similarity will be shown in a table along with other individual similarity scores, e.g. structure similarity, chemical similarity, target pathway similarity, GO terms similarity. The table also shows the statuses of the incident drugs annotated in [Drugbank](https://www.drugbank.ca). Note, depending on the option chosen (see above) before the query being made, the final column in the table displays the information about the combined knowledge of all the individual similarity scores, i.e. Combined score, p-value, or adjusted p-value. 
 
 <img style='display: table; border-radius: 5px; border: 1px solid #293954; '
-              src="../www/tutorial images/search_tableView.png" width="600">
+              src="documentation/search_tableView.png" width="600">
 
 This table view is exportable in multiple format, e.g. CSV, Excel, PDF. It can also be copied in the ClipBoard and be printed using system default printer driver. There is a global search bar at the top of the view, which allows user to filter any the whole table based on a query word that works for all the columns. Morever, the table can be sorted based on individual column and has pagination support.
 
@@ -43,7 +43,7 @@ One of the most important feature of this interface is the network view of drug-
 
 
 <img style='display: table; border-radius: 5px; border: 1px solid #293954; '
-              src="../www/tutorial images/search_NetworkView.png" width="600">
+              src="documentation/search_NetworkView.png" width="600">
 
 This view has several useful feature, which are described below.
 
