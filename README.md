@@ -1,14 +1,3 @@
----
-title: "Tutorial"
-output: 
-  html_document: 
-    highlight: textmate
-    toc: yes
-    toc_float: 
-      collapsed: no
-    theme: flatly
----
-
 # Introduction
 
 This page provides notes and instructions on how to explore, visualize and extract drug-similarity information in DrugSimDB.
